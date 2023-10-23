@@ -11,7 +11,7 @@ export default function Landing(){
                         <img src="https://i.ibb.co/dbWZTgD/hombre-se-alando1-removebg-preview.png" alt="hombre" />
                     </div>
                     <div className="main-image">
-                        <img src="/src/images/Fachada.jpeg" alt="imagen-principal" />
+                        <img className = "imageFachada" src="/src/images/Fachada.jpeg" alt="imagen-principal" />
                     </div>
                 </div>
                 <div className="titulo">
