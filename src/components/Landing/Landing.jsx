@@ -11,7 +11,7 @@ export default function Landing(){
                         <img src="https://i.ibb.co/dbWZTgD/hombre-se-alando1-removebg-preview.png" alt="hombre" />
                     </div>
                     <div className="main-image">
-                        <img src="/images/fachada.jpeg" alt="imagen-principal" />
+                        <img src="/src/images/Fachada.jpeg" alt="imagen-principal" />
                     </div>
                 </div>
                 <div className="titulo">
@@ -29,9 +29,9 @@ export default function Landing(){
                 </div>
                 <div className="gallery">
                     <div className="secondary-images">
-                        <img src="/images/escalera.jpeg" alt="imagen-principal" />
-                        <img src="/images/cocina-comedor.jpeg" alt="imagen-principal" />
-                        <img src="/images/Habitacion.jpeg" alt="imagen-principal" />
+                        <img src="/src/images/escalera.jpeg" alt="imagen-principal" />
+                        <img src="/src/images/cocina-comedor.jpeg" alt="imagen-principal" />
+                        <img src="/src/images/Habitacion.jpeg" alt="imagen-principal" />
                     </div>
                 </div>
             </section>
