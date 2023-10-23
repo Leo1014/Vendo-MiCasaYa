@@ -12,7 +12,7 @@ export default function Footer(){
             </div>
             <div className="pData">
                 <p className="email"><AiOutlineMail className="mail"/>antoniomartinezb251@gmail.com</p>
-                <p className="whatsApp"><BsWhatsapp className="logoW"/> 312-3152234747</p>
+                <p className="whatsApp"><BsWhatsapp className="logoW"/> 315-2234747</p>
             </div>
             <div className="handHelp">
                 <FaHandsHelping className="hand"/>
