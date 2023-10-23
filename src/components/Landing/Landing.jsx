@@ -1,4 +1,8 @@
 import "./Landing.css"
+import image_0 from "../../images/Fachada.jpeg"
+import image_1 from "../../images/cocina-comedor.jpeg"
+import image_2 from "../../images/escalera.jpeg"
+import image_3 from "../../images/Habitacion.jpeg"
 
 
 export default function Landing(){
@@ -11,7 +15,7 @@ export default function Landing(){
                         <img src="https://i.ibb.co/dbWZTgD/hombre-se-alando1-removebg-preview.png" alt="hombre" />
                     </div>
                     <div className="main-image">
-                        <img className = "imageFachada" src="/src/images/Fachada.jpeg" alt="imagen-principal" />
+                        <img className = "imageFachada" src={image_0} alt="imagen-principal" />
                     </div>
                 </div>
                 <div className="titulo">
@@ -29,9 +33,9 @@ export default function Landing(){
                 </div>
                 <div className="gallery">
                     <div className="secondary-images">
-                        <img src="/src/images/escalera.jpeg" alt="imagen-principal" />
-                        <img src="/src/images/cocina-comedor.jpeg" alt="imagen-principal" />
-                        <img src="/src/images/Habitacion.jpeg" alt="imagen-principal" />
+                        <img src={image_2} alt="imagen-principal" />
+                        <img src={image_1} alt="imagen-principal" />
+                        <img src={image_3} alt="imagen-principal" />
                     </div>
                 </div>
             </section>
